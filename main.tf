@@ -1,3 +1,4 @@
-resource "null_resource" "is_environment_name_valid" {
-  name = "test"
+resource "aws_rds_cluster_parameter_group" "test" {
+  name   = "test"
+  familie = "aurora-postgresql10"
 }
